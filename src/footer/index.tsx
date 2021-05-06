@@ -33,7 +33,7 @@ const Footer: React.FC = () => {
               </li>
             </ul>
             <p className="copyright text-muted">
-              Copyright &copy; Your Website 2021
+              Copyright &copy; Douglas Aleixo Mendes Website 2021
             </p>
           </div>
         </div>
