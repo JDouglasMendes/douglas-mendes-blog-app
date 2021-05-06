@@ -1,20 +1,9 @@
-import React, { useState } from "react";
-import { Button, Toast } from "react-bootstrap";
+import React from "react";
 import "./App.css";
-import Footer from "./footer";
-import Header from "./header";
-import Navigator from "./navigator";
-import Home from "./pages/home";
+import Routes from "./routes";
 
 function App() {
-  return (
-    <div>
-      <Navigator></Navigator>
-      <Header></Header>
-      <Home></Home>
-      <Footer></Footer>
-    </div>
-  );
+  return <Routes></Routes>;
 }
 
 export default App;
