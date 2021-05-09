@@ -29,6 +29,11 @@ const Navigator: React.FC = () => {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="">
+                Series
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="">
                 Sobre
               </a>
             </li>

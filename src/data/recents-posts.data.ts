@@ -5,12 +5,13 @@ export interface RecentPost {
   date: String;
   rota: string | undefined;
 }
+
 export const getRecentsPosts: RecentPost[] = [
   {
     title: "Essencial Git",
     subTitle: "Comandos, dicas e casos reais",
     minutes: 5,
     date: "06/05/2021",
-    rota: "/",
+    rota: "/essencial-git",
   },
 ];

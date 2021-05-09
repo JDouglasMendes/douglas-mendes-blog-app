@@ -4,6 +4,7 @@ import Footer from "../footer";
 import Header from "../header";
 import Navigator from "../navigator";
 import Home from "../pages/home";
+import EssentialGit from "../pages/posts/essential-git";
 import About from "./../pages/about/index";
 import Contact from "./../pages/contact/index";
 
@@ -33,6 +34,7 @@ const Routes = () => (
     <Switch>
       <MyRoute path="/about" component={About} />
       <MyRoute path="/contact" component={Contact} />
+      <MyRoute path="/essencial-git" component={EssentialGit} />
       <MyRoute path="/" component={Home} />
     </Switch>
   </BrowserRouter>
