@@ -5,8 +5,10 @@ import Header from "../header";
 import Navigator from "../navigator";
 import Home from "../pages/home";
 import EssentialGit from "../pages/posts/essential-git";
+import DDDTopics from "../pages/series/DDD/topics";
 import About from "./../pages/about/index";
 import Contact from "./../pages/contact/index";
+import SeriesHome from "./../pages/series/home/index";
 
 interface IProps {
   component: React.ComponentType<any>;
@@ -35,6 +37,8 @@ const Routes = () => (
       <MyRoute path="/about" component={About} />
       <MyRoute path="/contact" component={Contact} />
       <MyRoute path="/essencial-git" component={EssentialGit} />
+      <MyRoute path="/series" component={SeriesHome} />
+      <MyRoute path="/series-ddd-topics" component={DDDTopics} />
       <MyRoute path="/" component={Home} />
     </Switch>
   </BrowserRouter>
