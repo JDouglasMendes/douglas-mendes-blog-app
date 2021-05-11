@@ -8,10 +8,11 @@ export interface IDDDTopics {
 }
 export const DataDDDTopics = (): IDDDTopics[] => [
   {
-    title: `Por que pensar em DDD?`,
-    subtitle: `Entender quanto DDD pode ajudar ou atrapaçhar é o inicio do processo!`,
-    date: `-`,
-    readingTime: `-`,
+    title: `O que é DDD? Por que devo utilizar
+    ? Quando devo utilizar ?`,
+    subtitle: `Antes de sair criando Entities, Values Objects, que tal verificar se DDD realmente pode ajudar seu projeto?`,
+    date: `11/05/2021`,
+    readingTime: `9 minutos de leitura`,
     route: `/ddd-introduction`,
   },
   {
