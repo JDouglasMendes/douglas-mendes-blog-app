@@ -12,7 +12,7 @@ export const DataDDDTopics = (): IDDDTopics[] => [
     subtitle: `Entender quanto DDD pode ajudar ou atrapaçhar é o inicio do processo!`,
     date: `-`,
     readingTime: `-`,
-    route: `/#`,
+    route: `/ddd-introduction`,
   },
   {
     title: `Linguagem Ubíqua`,
