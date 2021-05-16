@@ -29,7 +29,7 @@ const Navigator: React.FC = () => {
             </li>
             <li className="nav-item">
               <a href="/series" className="nav-link">
-                Series
+                Séries
               </a>
             </li>
             <li className="nav-item">

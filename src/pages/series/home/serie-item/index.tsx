@@ -9,7 +9,7 @@ const SerieItem: React.FC<ISeriesHome> = (prop: ISeriesHome) => {
           <h2 className="post-title">{prop.title}</h2>
           <h3 className="post-subtitle">{prop.subtitle}</h3>
           <p className="post-meta">
-            {prop.ready} de {prop.topics} topicos escritos.
+            {prop.ready} de {prop.topics} tópicos escritos.
           </p>
         </a>
       </div>

@@ -37,7 +37,7 @@ export const getCommandsGit = (): CommandGit[] => [
   {
     command: "git commit -m ''",
     explanation: `Faz commit de todos os arquivos que estão na <i>stage</i> para o repositório local. </br>
-     Isso mesmo ainda falta um passo para seus arquivos ir para o servidor.`,
+     Isso mesmo ainda falta um passo para seus arquivos ir para o servidor e ficar disponível para todos`,
     tip: `Seja bastante claro e objetivo nas mensagems de commit. </br> 
     Você e seu time irão agradecer.`,
   },

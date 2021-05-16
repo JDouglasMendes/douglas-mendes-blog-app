@@ -12,8 +12,9 @@ export const DataDDDTopics = (): IDDDTopics[] => [
     ? Quando devo utilizar ?`,
     subtitle: `Antes de sair criando Entities, Values Objects, que tal verificar se DDD realmente pode ajudar seu projeto?`,
     date: `11/05/2021`,
-    readingTime: `9 minutos de leitura`,
+    readingTime: `5 minutos de leitura`,
     route: `/ddd-introduction`,
+    ready: true,
   },
   {
     title: `Linguagem Ubíqua`,

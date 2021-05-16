@@ -14,7 +14,7 @@ const SeriesHome: React.FC = () => {
                 subtitle={serie.subtitle}
                 title={serie.title}
                 ready={serie.ready}
-                topics={index}
+                topics={serie.topics}
               />
             );
           })}

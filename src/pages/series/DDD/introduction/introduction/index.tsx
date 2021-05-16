@@ -8,7 +8,7 @@ const DDDIntroduction: React.FC = () => {
           Por que pensar em DDD (Domain Driven Design)?
         </p>
         <p>
-          Domain Driven Design que a partir desse momento será chamado de apenas
+          Domain Driven Design que a partir desse momento chamarei apenas de
           DDD teve sua popularidade alcançada a partir do livro{" "}
           <i>
             "Domain-Driven Design: atacando as complexidades no coração do
@@ -21,27 +21,27 @@ const DDDIntroduction: React.FC = () => {
         <p className="personal-comment font-weight-light">
           Grande parte das polêmicas relacionadas ao DDD se deve ao fato de nós,
           pessoas desenvolvedoras de software, se preocupar exageradamente com
-          aspectos técnicos e ignorando o que de fato realmente importa, a
-          resolução do problema de negócio.
+          aspectos técnicos e ignorar o que de fato importa, a
+          solução do problema de negócio.
         </p>
         <p>
-          Temos que entender a essencia do DDD para tomar a descisão inicial, e
-          essa descisão vem de uma Simples pergunta:{" "}
+          Temos que entender a essência do DDD para tomar a descisão inicial, e
+          essa descisão vem de uma simples pergunta:{" "}
           <span className="font-italic font-weight-light">
-            O que eu ganharia com DDD no meu contexto atual?
+            <u>Como DDD pode ajudar no meu contexto atual?</u>
           </span>{" "}
           isso mesmo! o que você ganha em ter um contexto com DDD?{" "}
           <span className="font-italic font-weight-light">
             (uso a palavra <span className="font-weight-bold">contexto</span> de
-            proposito, pois como você verá DDD não se aplica a um{" "}
+            propósito, pois como você verá DDD não se aplica a um{" "}
             <span className="font-weight-bold">projeto</span>).
           </span>
           <p className="text-center">
-            Tudo bem! então no que DDD pode ajudar meu contexto?
+            Tudo bem! isso gera outra questão: <u>Quais os benéficios do DDD?</u>?
           </p>
           <p className="personal-comment font-weight-light">
             DDD te ajuda a modelar o sistema e seus componentes de forma a
-            atacar a complexidade das regras do dominio.
+            atacar a complexidade das regras do domínio.
           </p>
           <div className="mb-1">
             Se você tem pouca experiência com DDD posso ler seu pensamento nesse
@@ -49,9 +49,9 @@ const DDDIntroduction: React.FC = () => {
             <span className="font-italic font-weight-light">"Só isso?"</span>.
           </div>
           <div>
-            Se você já possui alguma experiência com DDD pode ter pensando:{" "}
+            Se você já possui alguma experiência com DDD pode ter pensado:{" "}
             <span className="font-italic font-weight-light">
-              "Só isso? consigo listar mais uma pilha de beneficios".
+              "Só isso? consigo listar mais uma pilha de benefícios".
             </span>
           </div>
         </p>
@@ -61,7 +61,7 @@ const DDDIntroduction: React.FC = () => {
           de software já enfrentou.
         </p>
         <div>
-          <ul className="list-group list-group-flush">
+          <ul className="list-group">
             <li className="list-group-item">
               Quantos projetos você já viu falhar devido a escolha do banco de
               dados?
@@ -76,76 +76,76 @@ const DDDIntroduction: React.FC = () => {
             </li>
           </ul>
         </div>
-        <p>Agora insights e provocações mas sob outra otica.</p>
+        <p className="text-center">Agora insights e provocações porém sob outra perspectiva.</p>
         <div>
-          <ul className="list-group list-group-flush">
+          <ul className="list-group">
             <li className="list-group-item">
               Quantos projetos você já viu falhar por definição errada de
               escopo?
             </li>
             <li className="list-group-item">
-              Quantos projetos você já viu falhar/atrasar porque o proprio time
-              se perde no proprio código?
+              Quantos projetos você já viu falhar/atrasar porque o próprio time
+              se perde no próprio código?
             </li>
             <li className="list-group-item">
-              Quantos projetos você já viu ficar cada dia mais honeroso aplicar
+              Quantos projetos você já viu ficar cada vez mais oneroso aplicar
               uma nova feature?
             </li>
             <li className="list-group-item">
-              Quantas vezes você já esteve na situação ou conhecer alguém que é
+              Quantas vezes você já esteve na situação ou conhece alguém que é
               única pessoa capaz de explicar certa parte do sistema.
             </li>
           </ul>
         </div>
         <p>
           Nesse momento você já deve ter percebido o ponto chave da questão, se
-          ainda não percebeu, tente voltar comparar as listas acima.{" "}
+          ainda não percebeu, volte e compare as listas acima.{" "}
         </p>
         <p className="text-center h1">...</p>
         <div>
-          DDD não é sobre técnica, e sobre resolver problema do dominio, Sim OK,
-          estamos falando de desenvolvimento de software e por sua essencia e um
-          assunto técnico, mas o ponto chave é que DDD é uma ideia para modelar
-          sistemas de dominio complexo, onde o investimento e/ou os riscos
-          compensa utilizar uma abordagem centrada no dominio.
+          DDD não é sobre técnica, é sobre resolver problema do dominio, Sim OK!
+          estamos falando de desenvolvimento de software e por sua essência é um
+          assunto técnico, mas o ponto chave é que o DDD é uma <i>idéia</i> para modelar
+          sistemas de domínio complexo, onde o investimento e/ou os riscos
+          compensa a utilização de uma abordagem centrada no domínio.
         </div>
         <div>
           No entando, complexidade pode ser relativo e com isso dificil de
-          decidir quando tem pouca experiencia no assunto. No livro XXXXX de
-          XXXX contém uma listagem bem explicativa com alguns questionamentos
+          decidir quando tem pouca experiência no assunto. No livro "Implementando Domain-Driven Design" de
+          Vaughn Vernon contém uma listagem bem explicativa com alguns questionamentos
           sobre o contexto para te ajudar a decidir se o seu contexto se
-          enquadra na utilização do DDD. Tomei a liberta de customizar e deixar
-          a brasileira essa lista (ou seja, deixar mais curta direta e reta!).
+          enquadra na utilização do DDD. Tomei a libertade de customizar e deixar
+          à brasileira essa lista (ou seja, deixar mais curta direta e reta!).
         </div>
         <br></br>
         <div></div>
         <div className="row border">
-          <div className="col-9 border-right">Cenário ou Contexto</div>
-          <div className="col-3">DDD e pra você?</div>
+          <div className="col-9 border-right"><b>Cenário/Contexto</b></div>
+          <div className="col-3 text-right"><b>Devo utilizar DDD?</b></div>
         </div>
         <div className="row border">
           <div className="col-9 border-right">
-            Você e o time concorda que o dominio do problema e complexo?
+            Você e o time concorda que as regras de negócio são complexas.
           </div>
-          <div className="col-3 ">
+          <div className="col-3 text-right">
             <span className="badge badge-success">Sim</span>
           </div>
         </div>
         <div className="row border">
           <div className="col-9 border-right">
             Devido ao contexto do projeto não é possível ter um visão ampla do
-            negócio, mas a parte conhecida já tem uma certa complexidade.
+            negócio, mas a parte conhecida já tem uma certa complexidade nas regras de negócio.
           </div>
-          <div className="col-3 ">
+          <div className="col-3 text-right">
             <span className="badge badge-success">Sim</span>
           </div>
         </div>
         <div className="row border">
           <div className="col-9 border-right">
-            Bugs em determinadas regras/partes do sistema podem trazer serias
-            consequencias a empresa.
+            Bugs em determinadas regras/partes do sistema podem trazer sérias
+            consequências a empresa.
           </div>
-          <div className="col-3 ">
+          <div className="col-3 text-right">
             <span className="badge badge-success">Sim</span>
           </div>
         </div>
@@ -153,16 +153,16 @@ const DDDIntroduction: React.FC = () => {
           <div className="col-9 border-right">
             Poucas pessoas no time tem conhecimento ou já viu falar de DDD.
           </div>
-          <div className="col-3 ">
+          <div className="col-3 text-right">
             <span className="badge badge-warning">Fique atento</span>
           </div>
         </div>
         <div className="row border">
           <div className="col-9 border-right">
-            O time não tem uma pessoa especialista no dominio, deixando a equipe
+            O time não tem uma pessoa especialista no donínio, deixando a equipe
             técnica com a responsabilidade de investigar e definir regras.
           </div>
-          <div className="col-3 ">
+          <div className="col-3 text-right">
             <span className="badge badge-warning">Fique atento</span>
           </div>
         </div>
@@ -170,9 +170,9 @@ const DDDIntroduction: React.FC = () => {
           <div className="col-9 border-right">
             O projeto tem regra de negócio complexa porém o tempo de vida do
             sistema depende de outros fatores, o que está sendo desenvolvido é
-            uma validação de ideia.
+            uma validação de idéia(Spike).
           </div>
-          <div className="col-3 ">
+          <div className="col-3 text-right">
             <span className="badge badge-warning">Fique atento</span>
           </div>
         </div>
@@ -180,38 +180,39 @@ const DDDIntroduction: React.FC = () => {
           <div className="col-9 border-right">
             Grande parte do sistema é cadastro.
           </div>
-          <div className="col-3 ">
+          <div className="col-3 text-right">
             <span className="badge badge-danger">Não</span>
           </div>
         </div>
         <div className="row border">
           <div className="col-9 border-right">
             A maioria dos desafios são relativos a requisitos não funcionais
-            como: desempenho, uptime, escalabilidade.
+            como: <i>desempenho, uptime, escalabilidade.</i>
           </div>
-          <div className="col-3 ">
+          <div className="col-3 text-right">
             <span className="badge badge-danger">Não</span>
           </div>
         </div>
         <div className="row border">
           <div className="col-9 border-right">
-            O tempo de vida do projeto é do sistema muito curto e para um fim
-            especifico.
+            O tempo de vida do projeto e do sistema muito curto e para um fim
+            específico.
           </div>
-          <div className="col-3 ">
+          <div className="col-3 text-right">
             <span className="badge badge-danger">Não</span>
           </div>
         </div>
         <p>
-          Essa lista pode te ajudar a decidir, não aceite e não acredite em
-          nenhuma receita de bolo a respeito dessa descisão, jamais delege esse
-          ponto a pessoas com pouco experiência em desenvolvimento de software,
-          nesse momento o especialista do dominio será a melhor pessoa na sua
-          vida, pergunte, questione, valide seu entendimento, veja se o time
-          concorda com a abordagem, faça uma alinhamento de expectativas com o
-          com as pessoas envolvidas diretamente e indiretamente no projeto, esse
-          fluxo de trabalho com certeza te ajudará a ter melhores informações
-          para tomar a descisão.
+          Essa lista pode te ajudar a decidir, obviamente não tem todos os casos, mas já é possível ter um visão geral.</p>
+        <p> Não aceite e não acredite em
+        nenhuma receita de bolo a respeito dessa descisão, jamais delege esse
+        ponto a pessoas com pouco experiência em desenvolvimento de software,
+        nesse momento o especialista do domínio será a melhor pessoa na sua
+        vida, pergunte, questione, valide seu entendimento, veja se o time
+        concorda com a abordagem, faça uma alinhamento de expectativas com o
+        com as pessoas envolvidas diretamente e indiretamente no projeto, esse
+        fluxo de trabalho com certeza te ajudará a ter melhores informações
+        para tomar a descisão.
         </p>
       </div>
     </article>

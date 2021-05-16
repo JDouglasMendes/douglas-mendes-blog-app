@@ -12,44 +12,25 @@ const EssentialGit: React.FC = () => {
           uma ferramenta de versionamento de código e como ela pode ajudar seu
           trabalho, por isso já vou direto para uma lista de comandos essenciais
           que um desenvolvedor ou qualquer pessoa que trabalhe com arquivos
-          versionados utiliza com frequencia.
+          versionados utiliza com frequência.
         </p>
-        <p className="font-italic lead">
+        <p className="font-italic lead text-center">
           Pense nessa listagem como um guia de busca rapida, então já manda para
           os favoritos :)
         </p>
         <p className="text-center h3">Principais comandos</p>
-        <table className="table table-bordered">
-          <thead>
-            <tr>
-              <th scope="col">Comando</th>
-              <th scope="col">Explicação</th>
-              <th scope="col">#Dica</th>
-            </tr>
-          </thead>
-          <tbody>
-            {getCommandsGit().map((command) => (
-              <tr>
-                <th scope="row">{command.command}</th>
-                <td>
-                  <Markup content={command.explanation} />
-                </td>
-                <td>
-                  <Markup content={command.tip} />
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-        <p className="text-center h3">Problemas diarios</p>
-        <div>
-          <div>
-            <strong>Cenario:</strong>
-          </div>
-          <div>
-            <strong>Solução:</strong>
-          </div>
+        <div className="row border">
+          <div className="col-3 border-right"><b>Comando</b></div>
+          <div className="col-5 border-right"><b>Explicação</b></div>
+          <div className="col-4"><b>#Dica</b></div>
         </div>
+        {getCommandsGit().map((command) => (
+          <div className="row border">
+            <div className="col-3 border-right"><b>{command.command}</b></div>
+            <div className="col-5 border-right"> <Markup content={command.explanation} /></div>
+            <div className="col-4"><Markup content={command.tip} /></div>
+          </div>
+        ))}        
       </div>
     </>
   );
