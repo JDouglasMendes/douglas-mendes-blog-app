@@ -18,10 +18,10 @@ export const DataDDDTopics = (): IDDDTopics[] => [
   },
   {
     title: `Linguagem Ubíqua`,
-    subtitle: ``,
-    date: `-`,
-    readingTime: `-`,
-    route: `/#`,
+    subtitle: `A importancia da linguagem ubíqua e uma critica a encontrolavel vontade de sair codando.`,
+    date: `30/05/2021`,
+    readingTime: `3 minutos de leitura`,
+    route: `/ddd-ubiquitous-language`,
   },
   {
     title: `Contexto Delimitado`,

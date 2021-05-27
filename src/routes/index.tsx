@@ -10,6 +10,7 @@ import About from "./../pages/about/index";
 import Contact from "./../pages/contact/index";
 import SeriesHome from "./../pages/series/home/index";
 import DDDIntroduction from "./../pages/series/DDD/introduction/introduction/index";
+import UbiquitousLanguage from "./../pages/series/DDD/ubiquitousLanguage/index";
 
 interface IProps {
   component: React.ComponentType<any>;
@@ -41,6 +42,7 @@ const Routes = () => (
       <MyRoute path="/series" component={SeriesHome} />
       <MyRoute path="/series-ddd-topics" component={DDDTopics} />
       <MyRoute path="/ddd-introduction" component={DDDIntroduction} />
+      <MyRoute path="/ddd-ubiquitous-language" component={UbiquitousLanguage} />
       <MyRoute path="/" component={Home} />
     </Switch>
   </BrowserRouter>
